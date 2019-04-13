@@ -24,7 +24,7 @@ class network(Thread):
             print ("unable to connect to ip %s" %(self.host))
             return False
         else:
-            print("Connected to ip %s" %(self.host))
+            print("Connected to ip %s " %(self.host))
             return True
 
     def senddata(self,data):
